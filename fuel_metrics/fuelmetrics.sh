@@ -18,3 +18,4 @@ type_comment="# TYPE fuel_height gauge"
     echo "$type_comment"
     echo "fuel_height $height"
 } >> "$metrics_file"
+
