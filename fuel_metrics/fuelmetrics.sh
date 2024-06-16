@@ -30,7 +30,7 @@ type_comment_id="# TYPE fuel_block_id gauge"
 {
     echo "$help_comment_height"
     echo "$type_comment_height"
-    echo "fuel_height{block_id=\"$block_id\"} $height"
+    echo "fuel_height $height"
     echo "$help_comment_id"
     echo "$type_comment_id"
     echo "fuel_block_id{block_id=\"$block_id\"} 1"
