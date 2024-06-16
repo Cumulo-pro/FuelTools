@@ -26,6 +26,16 @@ type_comment_height="# TYPE fuel_height gauge"
 help_comment_id="# HELP fuel_block_id Fuel node block id"
 type_comment_id="# TYPE fuel_block_id gauge"
 
+response_version=$(curl -s -X POST http://0.0.0.0:5000/v1/graphql \
+  -H "Content-Type: application/json" \
+  -d '{"query": "{ nodeInfo { nodeVersion } }"}')
+
+node_version=$(echo "$response_version" | jq -r '.data.nodeInfo.nodeVersion')
+help_comment_version="# HELP node_version Fuel node version"
+type_comment_version="# TYPE node_version gauge"
+
+
+  
 # Overwrite the metrics file with the new data
 {
     echo "$help_comment_height"
@@ -34,4 +44,7 @@ type_comment_id="# TYPE fuel_block_id gauge"
     echo "$help_comment_id"
     echo "$type_comment_id"
     echo "fuel_block_id{block_id=\"$block_id\"} $height"
+     echo "$help_comment_version"
+    echo "$type_comment_version"
+    echo "node_version{version=\"$node_version\"} 1"
 } > "$metrics_file"
