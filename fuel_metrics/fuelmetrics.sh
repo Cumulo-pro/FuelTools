@@ -34,7 +34,7 @@ response_version=$(curl -s -X POST http://0.0.0.0:5000/v1/graphql \
 node_version=$(echo "$response_version" | jq -r '.data.nodeInfo.nodeVersion')
 
 # Convert node version to numeric value
-node_version_numeric=$(echo "$node_version" | tr -d '.' | awk '{print $1 / 10}')
+node_version_numeric=$(echo "$node_version" | awk -F. '{print $1 "." $2 $3}')
 
 help_comment_version="# HELP node_version Fuel node version"
 type_comment_version="# TYPE node_version gauge"
