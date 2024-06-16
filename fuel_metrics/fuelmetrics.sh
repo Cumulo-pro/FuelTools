@@ -4,12 +4,20 @@
 metrics_file="/usr/local/metrics/node_exporter_metrics.prom"
 
 # Obtain fuel height
-response=$(curl -X POST http://0.0.0.0:5000/v1/graphql \
+response=$(curl -s -X POST http://0.0.0.0:5000/v1/graphql \
   -H "Content-Type: application/json" \
   -d '{"query": "{ chain { latestBlock { id height } } }"}')
 
+# Print the response for debugging
+echo "Response: $response"
+
+# Parse the response using jq
 height=$(echo "$response" | jq -r '.data.chain.latestBlock.height')
 block_id=$(echo "$response" | jq -r '.data.chain.latestBlock.id')
+
+# Print the parsed values for debugging
+echo "Height: $height"
+echo "Block ID: $block_id"
 
 # Define HELP and TYPE for height and block id
 help_comment_height="# HELP fuel_height Fuel node block height"
