@@ -30,10 +30,14 @@ response_version=$(curl -s -X POST http://0.0.0.0:5000/v1/graphql \
   -H "Content-Type: application/json" \
   -d '{"query": "{ nodeInfo { nodeVersion } }"}')
 
+# Parse the response using jq
 node_version=$(echo "$response_version" | jq -r '.data.nodeInfo.nodeVersion')
+
+# Convert node version to numeric value
+node_version_numeric=$(echo "$node_version" | tr -d '.' | awk '{print $1 / 10}')
+
 help_comment_version="# HELP node_version Fuel node version"
 type_comment_version="# TYPE node_version gauge"
-
 
   
 # Overwrite the metrics file with the new data
@@ -46,5 +50,5 @@ type_comment_version="# TYPE node_version gauge"
     echo "fuel_block_id{block_id=\"$block_id\"} $height"
      echo "$help_comment_version"
     echo "$type_comment_version"
-    echo "node_version{version=\"$node_version\"} 1"
+     echo "node_version $node_version_numeric"
 } > "$metrics_file"
