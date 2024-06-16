@@ -11,18 +11,19 @@ response=$(curl -X POST http://0.0.0.0:5000/v1/graphql \
 height=$(echo "$response" | jq -r '.data.chain.latestBlock.height')
 block_id=$(echo "$response" | jq -r '.data.chain.latestBlock.id')
 
-# Define HELP and TYPE for height
+# Define HELP and TYPE for height and block id
 help_comment_height="# HELP fuel_height Fuel node block height"
 type_comment_height="# TYPE fuel_height gauge"
 
-# Define HELP and TYPE for block id (as label)
 help_comment_id="# HELP fuel_block_id Fuel node block id"
+type_comment_id="# TYPE fuel_block_id gauge"
 
 # Overwrite the metrics file with the new data
 {
     echo "$help_comment_height"
     echo "$type_comment_height"
-    echo "fuel_height $height"
+    echo "fuel_height{block_id=\"$block_id\"} $height"
     echo "$help_comment_id"
-    echo "fuel_block_info{block_id=\"$block_id\"} $height"
+    echo "$type_comment_id"
+    echo "fuel_block_id{block_id=\"$block_id\"} 1"
 } > "$metrics_file"
