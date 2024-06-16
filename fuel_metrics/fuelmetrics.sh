@@ -12,13 +12,12 @@ height=$(echo "$response" | jq -r '.data.chain.latestBlock.height')
 block_id=$(echo "$response" | jq -r '.data.chain.latestBlock.id')
 
 
-# Define HELP and TYPE
-help_comment="# HELP fuel_height Fuel node block height"
-type_comment="# TYPE fuel_height gauge"
+# Define HELP and TYPE for height
+help_comment_height="# HELP fuel_height Fuel node block height"
+type_comment_height="# TYPE fuel_height gauge"
 
-# Define HELP and TYPE for block id
+# Define HELP and TYPE for block id (as label)
 help_comment_id="# HELP fuel_block_id Fuel node block id"
-type_comment_id="# TYPE fuel_block_id gauge"
 
 # Overwrite the metrics file with the new data
 {
@@ -26,6 +25,5 @@ type_comment_id="# TYPE fuel_block_id gauge"
     echo "$type_comment_height"
     echo "fuel_height $height"
     echo "$help_comment_id"
-    echo "$type_comment_id"
-    echo "fuel_block_id $block_id"
+    echo "fuel_block_info{block_id=\"$block_id\"} 1"
 } > "$metrics_file"
