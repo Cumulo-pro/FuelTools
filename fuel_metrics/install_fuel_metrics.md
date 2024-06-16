@@ -22,7 +22,7 @@ Create a service file and timer to run the script periodically **/etc/systemd/sy
 ```bash
 sudo tee /etc/systemd/system/fuel_metrics.service > /dev/null << EOF
 [Unit]
-Description=Bridge metrics update
+Description=Fuel metrics update
 After=network.target
 
 [Service]
