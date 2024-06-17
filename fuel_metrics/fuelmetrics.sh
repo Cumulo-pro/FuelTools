@@ -47,6 +47,12 @@ response_health=$(curl -s -X POST http://0.0.0.0:5000/v1/graphql \
 # Parse the response using jq
 health=$(echo "$response_health" | jq -r '.data.health')
 
+# Convert health to 1 if true or 0 if false
+health_value=0
+if [ "$health" = "true" ]; then
+  health_value=1
+fi
+
 # Define HELP and TYPE for health
 help_comment_health="# HELP fuel_health Fuel node health status"
 type_comment_health="# TYPE fuel_health gauge"
@@ -64,5 +70,5 @@ type_comment_health="# TYPE fuel_health gauge"
      echo "fuel_node_version $node_version_numeric"
      echo "$help_comment_health"
     echo "$type_comment_health"
-    echo "fuel_health $health"
+     echo "fuel_health $health_value"
 } > "$metrics_file"
