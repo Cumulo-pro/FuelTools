@@ -86,7 +86,7 @@ Create the timer **/etc/systemd/system/fuel_metrics.timer**:
 ```bash
 sudo tee /etc/systemd/system/fuel_metrics.timer > /dev/null << EOF
 [Unit]
-Description=Temporizador para la actualización de métricas del puente
+Description=Timer for bridge metrics update
 
 [Timer]
 OnUnitActiveSec=6s
