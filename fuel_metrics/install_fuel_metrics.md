@@ -1,4 +1,5 @@
 # Implementation and Configuration of Custom Metrics Monitoring
+![image](https://github.com/Cumulo-pro/FuelTools/assets/2853158/12dec99a-a963-4bf0-8008-5e79cc47a9de)
 
 ## Introduction
 
