@@ -36,8 +36,8 @@ node_version=$(echo "$response_version" | jq -r '.data.nodeInfo.nodeVersion')
 # Convert node version to numeric value
 node_version_numeric=$(echo "$node_version" | awk -F. '{print $1 "." $2 $3}')
 
-help_comment_version="# HELP node_version Fuel node version"
-type_comment_version="# TYPE node_version gauge"
+help_comment_version="# HELP fuel_node_version Fuel node version"
+type_comment_version="# TYPE fuel_node_version gauge"
 
   
 # Overwrite the metrics file with the new data
@@ -50,5 +50,5 @@ type_comment_version="# TYPE node_version gauge"
     echo "fuel_block_id{block_id=\"$block_id\"} $height"
      echo "$help_comment_version"
     echo "$type_comment_version"
-     echo "node_version $node_version_numeric"
+     echo "fuel_node_version $node_version_numeric"
 } > "$metrics_file"
