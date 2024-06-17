@@ -39,6 +39,17 @@ node_version_numeric=$(echo "$node_version" | awk -F. '{print $1 "." $2 $3}')
 help_comment_version="# HELP fuel_node_version Fuel node version"
 type_comment_version="# TYPE fuel_node_version gauge"
 
+# Obtain fuel health
+response_health=$(curl -s -X POST http://0.0.0.0:5000/v1/graphql \
+  -H "Content-Type: application/json" \
+  -d '{"query": "{ health }"}')
+
+# Parse the response using jq
+health=$(echo "$response_health" | jq -r '.data.health')
+
+# Define HELP and TYPE for health
+help_comment_health="# HELP fuel_health Fuel node health status"
+type_comment_health="# TYPE fuel_health gauge"
   
 # Overwrite the metrics file with the new data
 {
@@ -51,4 +62,7 @@ type_comment_version="# TYPE fuel_node_version gauge"
      echo "$help_comment_version"
     echo "$type_comment_version"
      echo "fuel_node_version $node_version_numeric"
+     echo "$help_comment_health"
+    echo "$type_comment_health"
+    echo "fuel_health $health"
 } > "$metrics_file"
