@@ -56,6 +56,22 @@ fi
 # Define HELP and TYPE for health
 help_comment_health="# HELP fuel_health Fuel node health status"
 type_comment_health="# TYPE fuel_health gauge"
+
+# Obtain peer IDs
+response_peers=$(curl -s -X POST http://0.0.0.0:5000/v1/graphql \
+  -H "Content-Type: application/json" \
+  -d '{"query": "{ nodeInfo { peers { id } } }"}')
+
+# Parse the response using jq
+peer_ids=$(echo "$response_peers" | jq -r '.data.nodeInfo.peers[].id')
+
+# Print the parsed peer IDs for debugging
+echo "Peer IDs: $peer_ids"
+
+# Define HELP and TYPE for peer IDs
+help_comment_peer_id="# HELP fuel_peer_id Fuel node peer ID"
+type_comment_peer_id="# TYPE fuel_peer_id gauge"
+
   
 # Overwrite the metrics file with the new data
 {
@@ -71,4 +87,7 @@ type_comment_health="# TYPE fuel_health gauge"
      echo "$help_comment_health"
     echo "$type_comment_health"
      echo "fuel_health $health_value"
+     for peer_id in $peer_ids; do
+        echo "fuel_peer_id{peer_id=\"$peer_id\"} 1"
+    done
 } > "$metrics_file"
