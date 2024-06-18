@@ -11,4 +11,4 @@ These resources are designed to provide the information you need to facilitate t
 
 [![FUEL GraphQL Queries](https://img.shields.io/badge/-FUEL%20GraphQL%20Queries-808000?style=for-the-badge&logo=github)](https://github.com/Cumulo-pro/FuelTools/wiki/FUEL-GraphQL-Queries)
 
-[![Fuel Metrics Monitoring](https://img.shields.io/badge/-Fuel%20Metrics%20Monitoring-808000?style=for-the-badge&logo=github)](https://github.com/Cumulo-pro/FuelTools/blob/main/fuel_metrics/install_fuel_metrics.md)
+[![Fuel Metrics Monitoring](https://img.shields.io/badge/-Fuel%20Metrics%20Monitoring-808000?style=for-the-badge&logo=github)](https://github.com/Cumulo-pro/FuelTools/blob/main/fuel_metrics/README.md)
