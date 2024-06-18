@@ -72,6 +72,22 @@ echo "Peer IDs: $peer_ids"
 help_comment_peer_id="# HELP fuel_peer_id Fuel node peer ID"
 type_comment_peer_id="# TYPE fuel_peer_id gauge"
 
+# Obtain chain height from external API
+response_chain=$(curl -s 'https://testnet.fuel.network/v1/graphql' \
+  -H 'Accept-Encoding: gzip, deflate, br' \
+  -H 'Content-Type: application/json' \
+  -H 'Accept: application/json' \
+  -H 'Connection: keep-alive' \
+  -H 'DNT: 1' \
+  -H 'Origin: https://testnet.fuel.network' \
+  --data-binary '{"query":"query {\nchain {\n latestBlock{\n height\n }\n }\n}"}' --compressed)
+
+# Parse the chain height using jq
+chain_height=$(echo "$response_chain" | jq -r '.data.chain.latestBlock.height')
+
+# Define HELP and TYPE for chain height
+help_comment_chain_height="# HELP fuel_chain_height Fuel chain block height"
+type_comment_chain_height="# TYPE fuel_chain_height gauge"
   
 # Overwrite the metrics file with the new data
 {
@@ -87,6 +103,9 @@ type_comment_peer_id="# TYPE fuel_peer_id gauge"
      echo "$help_comment_health"
     echo "$type_comment_health"
      echo "fuel_health $health_value"
+     echo "$help_comment_chain_height"
+    echo "$type_comment_chain_height"
+    echo "fuel_chain_height $chain_height"
      for peer_id in $peer_ids; do
         echo "fuel_peer_id{peer_id=\"$peer_id\"} 1"
     done
