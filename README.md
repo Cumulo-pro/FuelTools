@@ -1,6 +1,7 @@
 # FuelTools
 
 Welcome to the resource guide for working with Red Fuel. In this section you will find useful links and detailed documentation to help you run a node on the Fuel Network, perform GraphQL queries and monitor key system metrics.   
+
 These resources are designed to provide the information you need to facilitate the management and monitoring of your Fuel Network infrastructure, ensuring optimal performance and efficient operation.
 
 
