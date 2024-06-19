@@ -14,4 +14,4 @@ Bash script designed to collect various metrics related to the celestia-bridge s
 
 [![Grafana Dashboard JSON Configuration File](https://img.shields.io/badge/-Grafana%20Dashboard%20JSON%20Configuration%20File-808000?style=for-the-badge&logo=github)](https://github.com/Cumulo-pro/FuelTools/blob/main/fuel_metrics/Fuel%20metrics-1718733581399.json)
 
-This resource provides a JSON configuration file for a Grafana dashboard. The file includes all the necessary definitions and settings to visualize bridge node metrics in Grafana, making it easy to create informative panels and interactive graphs for real-time monitoring.
+This resource provides a JSON configuration file for a Grafana dashboard. The file includes all the necessary definitions and settings to visualize Fuel node metrics in Grafana, making it easy to create informative panels and interactive graphs for real-time monitoring.
