@@ -107,7 +107,7 @@ sudo systemctl enable --now fuel_metrics.timer
 
 ## Step 4: Verification
 
-Check that the Node Exporter, update_bridge_metrics and the timer are working correctly:
+Check that the Node Exporter, fuel_metrics and the timer are working correctly:
 
 ```bash
 sudo systemctl status node_exporter
