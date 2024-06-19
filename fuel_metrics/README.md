@@ -10,7 +10,7 @@ Implementation and Configuration of Custom Metrics Monitoring
 
 [![fuelmetrics.sh](https://img.shields.io/badge/-fuelmetrics.sh-808000?style=for-the-badge&logo=github)](https://github.com/Cumulo-pro/FuelTools/blob/main/fuel_metrics/fuelmetrics.sh)
 
-Bash script designed to collect various metrics related to the celestia-bridge service and save this data in a metrics file in Prometheus format.
+Bash script designed to collect various metrics related to the fuel service and save this data in a metrics file in Prometheus format.
 
 [![Grafana Dashboard JSON Configuration File](https://img.shields.io/badge/-Grafana%20Dashboard%20JSON%20Configuration%20File-808000?style=for-the-badge&logo=github)](https://github.com/Cumulo-pro/FuelTools/blob/main/fuel_metrics/Fuel%20metrics-1718733581399.json)
 
