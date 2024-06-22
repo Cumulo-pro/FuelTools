@@ -20,5 +20,5 @@ This resource provides a JSON configuration file for a Grafana dashboard. The fi
 
 Official Grafana dashboard for Fuel metrics, which can be imported directly into Grafana for monitoring fuel service metrics.
 
-[![Custom Monitoring a Fuel node with Grafana and Node Exporter](https://img.shields.io/badge/-Custom%20Monitoring%20a%20Fuel%20node%20with%20Grafana%20and%20Node%20Exporter-808000?style=for-the-badge&logo=medium)](https://medium.com/p/8828cd1c50eb)
-*Custom instructions for monitoring a Fuel node using Grafana and Node Exporter.*
+[![Custom Monitoring a Fuel node with Grafana and Node Exporter](https://img.shields.io/badge/-Custom%20Monitoring%20a%20Fuel%20node%20with%20Grafana%20and%20Node%20Exporter-808000?style=for-the-badge&logo=medium)](https://medium.com/p/8828cd1c50eb)  
+Custom instructions for monitoring a Fuel node using Grafana and Node Exporter.
