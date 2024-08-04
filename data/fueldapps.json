@@ -25,5 +25,14 @@
     "description": "With the Fuel Wallet,you can explore DApps on Fuel and manage your crypto assets, all in one place",
     "image": "fuelwallet.png",
     "type": "wallet"
+  },
+  {
+    "name": "Fuelet",
+    "url": "https://fuelet.app/",
+    "author": "Fuelet",
+    "twitter": "FueletWallet",
+    "description": "The leading and non-custodial account abstraction wallet on Fuel",
+    "image": "fueletwallet.png",
+    "type": "wallet"
   }
 ]
