@@ -1,8 +1,20 @@
-{
-  "name": "Explore Fuel",
-  "url": "https://app.fuel.network/",
-  "author": "Fuel",
-  "twitter": "fuel_network",
-  "description": "Fuel has a completely different transaction model, with inputs, outputs, scripts, predicates, and smart contracts",
-  "image": "fuelexplorer.png"
-}
+[
+  {
+    "name": "Explore Fuel",
+    "url": "https://app.fuel.network/",
+    "author": "Fuel",
+    "twitter": "fuel_network",
+    "description": "Fuel has a completely different transaction model, with inputs, outputs, scripts, predicates, and smart contracts",
+    "image": "fuelexplorer.png",
+    "type": "explorer/dashboard"
+  },
+  {
+    "name": "Fuel Front-Chain",
+    "url": "https://fuel.frontchain.cumulo.pro/",
+    "author": "Cumulo",
+    "twitter": "Cumulo_pro",
+    "description": "",
+    "image": "",
+    "type": "explorer/dashboard"
+  }
+]
