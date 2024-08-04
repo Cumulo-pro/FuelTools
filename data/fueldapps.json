@@ -4,7 +4,7 @@
     "url": "https://app.fuel.network/",
     "author": "Fuel",
     "twitter": "fuel_network",
-    "description": "Explore Fuel is a modern and user-friendly tool that allows real-time analysis and monitoring of the Fuel blockchain, providing detailed insights into transactions, blocks, and smart contracts.",
+    "description": "A modern and user-friendly tool that allows real-time analysis and monitoring of the Fuel blockchain, providing detailed insights into transactions, blocks, and smart contracts.",
     "image": "fuelexplorer.png",
     "type": "explorer/dashboard"
   },
@@ -36,5 +36,15 @@
     "image": "fuellet.png",
     "type": "wallet",
     "guide": "https://medium.com/cumulo-pro/fuelet-wallet-installation-and-setup-guide-4cc4e3ad1258"
+  },
+  {
+    "name": "Fuel Bridge",
+    "url": "https://app.fuel.network/bridge?from=eth&to=fuel",
+    "author": "Fuel",
+    "twitter": "fuel_network",
+    "description": "The Fuel Bridge allows users to seamlessly transfer assets between the Ethereum and Fuel blockchains.",
+    "image": "fuelbridge.jpg",
+    "type": "bridge",
+    "guide": "https://medium.com/cumulo-pro/fuel-bridge-ce7901423dcd"
   }
 ]
