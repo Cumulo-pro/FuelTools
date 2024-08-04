@@ -46,5 +46,15 @@
     "image": "fuelbridge.jpg",
     "type": "bridge",
     "guide": "https://medium.com/cumulo-pro/fuel-bridge-ce7901423dcd"
+  },
+  {
+    "name": "Sway Farm",
+    "url": "https://swayfarm.xyz/",
+    "author": "Fuel",
+    "twitter": "fuel_network",
+    "description": "Sway Farm is a very simple and fun game developed by the Fuel Network team.",
+    "image": "sway.jpg",
+    "type": "gamming",
+    "guide": "https://medium.com/@gvdlv4/how-to-play-sway-farm-game-on-beta-5-c90fb22217a3"
   }
 ]
