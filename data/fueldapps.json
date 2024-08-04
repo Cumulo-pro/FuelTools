@@ -16,5 +16,14 @@
     "description": "Explore the Fuel dashboard by Cumulo, your ultimate tool for monitoring and analyzing real-time data from the Fuel blockchain",
     "image": "cumulofuel.jpg",
     "type": "explorer/dashboard"
+  },
+  {
+    "name": "Fuel Wallet",
+    "url": "https://wallet.fuel.network/docs/install/",
+    "author": "Fuel",
+    "twitter": "fuel_network",
+    "description": "With the Fuel Wallet,you can explore DApps on Fuel and manage your crypto assets, all in one place",
+    "image": "fuelwallet.png",
+    "type": "wallet"
   }
 ]
