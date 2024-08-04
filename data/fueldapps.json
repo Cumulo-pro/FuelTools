@@ -73,9 +73,18 @@
     "url": "https://fuelname.com/",
     "author": "Fuel Name Service",
     "twitter": "FuelNameService",
-    "description": "a platform that allows users to claim domain names on Fuel, which is a big step towards the adoption of Web3.",
+    "description": "A platform that allows users to claim domain names on Fuel, which is a big step towards the adoption of Web3.",
     "image": "fuellname.png",
     "type": "dns",
     "guide": "https://medium.com/cumulo-pro/fuel-name-service-561de1f085f8"
+  },
+  {
+    "name": "Thunder",
+    "url": "https://beta.thundernft.market/",
+    "author": "Thunder ",
+    "twitter": "ThunderbyFuel",
+    "description": "Thunder is the superior NFT marketplace on Fuel.",
+    "image": "thunder.jpg",
+    "type": "NFT"
   }
 ]
