@@ -86,5 +86,14 @@
     "description": "Thunder is the superior NFT marketplace on Fuel.",
     "image": "thunder.jpg",
     "type": "NFT"
+  },
+  {
+    "name": "Swaylend",
+    "url": "https://app.swaylend.com/#/dashboard/",
+    "author": "Swaylend ",
+    "twitter": "ThunderbyFuel",
+    "description": "Thunder is the superior NFT marketplace on Fuel.",
+    "image": "swaylend.jpg",
+    "type": "Finances"
   }
 ]
