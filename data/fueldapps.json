@@ -24,7 +24,8 @@
     "twitter": "fuel_network",
     "description": "With the Fuel Wallet,you can explore DApps on Fuel and manage your crypto assets, all in one place",
     "image": "fuelwallet.png",
-    "type": "wallet"
+    "type": "wallet",
+    "guide": "https://medium.com/cumulo-pro/fuel-wallet-installation-set-up-guide-609900dcde4a"
   },
   {
     "name": "Fuelet",
@@ -33,6 +34,7 @@
     "twitter": "FueletWallet",
     "description": "The leading and non-custodial account abstraction wallet on Fuel",
     "image": "fuellet.png",
-    "type": "wallet"
+    "type": "wallet",
+    "guide": "https://medium.com/cumulo-pro/fuelet-wallet-installation-and-setup-guide-4cc4e3ad1258"
   }
 ]
