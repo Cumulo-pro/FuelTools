@@ -4,7 +4,7 @@
     "url": "https://app.fuel.network/",
     "author": "Fuel",
     "twitter": "fuel_network",
-    "description": "Fuel has a completely different transaction model, with inputs, outputs, scripts, predicates, and smart contracts",
+    "description": "Explore Fuel is a modern and user-friendly tool that allows real-time analysis and monitoring of the Fuel blockchain, providing detailed insights into transactions, blocks, and smart contracts.",
     "image": "fuelexplorer.png",
     "type": "explorer/dashboard"
   },
@@ -13,7 +13,7 @@
     "url": "https://fuel.frontchain.cumulo.pro/",
     "author": "Cumulo",
     "twitter": "Cumulo_pro",
-    "description": "",
+    "description": "Explore the Fuel dashboard by Cumulo, your ultimate tool for monitoring and analyzing real-time data from the Fuel blockchain",
     "image": "cumulofuel.jpg",
     "type": "explorer/dashboard"
   }
