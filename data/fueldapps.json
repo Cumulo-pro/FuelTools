@@ -15,7 +15,8 @@
     "twitter": "Cumulo_pro",
     "description": "Explore the Fuel dashboard by Cumulo, your ultimate tool for monitoring and analyzing real-time data from the Fuel blockchain",
     "image": "cumulofuel.jpg",
-    "type": "explorer/dashboard"
+    "type": "explorer/dashboard",
+    "guide": "https://medium.com/cumulo-pro/explore-the-fuel-front-chain-by-cumulo-f37b67d553d9"
   },
   {
     "name": "Fuel Wallet",
