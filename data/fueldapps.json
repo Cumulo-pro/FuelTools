@@ -67,5 +67,15 @@
     "image": "sway-playground.png",
     "type": "dev",
     "guide": "https://github.com/FuelLabs/sway-playground"
+  },
+  {
+    "name": "Fuel Name Service",
+    "url": "https://fuelname.com/",
+    "author": "Fuel Name Service",
+    "twitter": "FuelNameService",
+    "description": "a platform that allows users to claim domain names on Fuel, which is a big step towards the adoption of Web3.",
+    "image": "fuellname.png",
+    "type": "dns",
+    "guide": "https://medium.com/cumulo-pro/fuel-name-service-561de1f085f8"
   }
 ]
