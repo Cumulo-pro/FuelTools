@@ -104,5 +104,14 @@
     "description": "All-in-one DeFi hub on Fuel Network, with an integrated order book for seamless trading of your favorite assets",
     "image": "spark.jpg",
     "type": "DeFi"
+  },
+  {
+    "name": "MIRA",
+    "url": "https://mira.ly/",
+    "author": "Mira Finance",
+    "twitter": "Sprkfi",
+    "description": "A decentralized exchange (DEX) that allows users to trade, swap, and manage liquidity on the Fuel blockchain using an efficient Automated Market Maker (AMM).",
+    "image": "mira.jpg",
+    "type": "DeFi"
   }
 ]
