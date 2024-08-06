@@ -95,5 +95,14 @@
     "description": "Sway Lend is a decentralized lending platform built on the Fuel blockchain, enabling users to borrow and lend digital assets.",
     "image": "swaylend.jpg",
     "type": "DeFi"
+  },
+  {
+    "name": "Spark",
+    "url": "https://sprk.fi/",
+    "author": "Composability Labs",
+    "twitter": "Sprkfi",
+    "description": "All-in-one DeFi hub on Fuel Network, with an integrated order book for seamless trading of your favorite assets",
+    "image": "spark.jpg",
+    "type": "DeFi"
   }
 ]
