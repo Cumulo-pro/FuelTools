@@ -122,5 +122,14 @@
     "description": "The native non-custodial multi signature wallet of Fuel Network",
     "image": "bako.jpg",
     "type": "wallet"
+  },
+  {
+    "name": "Kasiopea",
+    "url": "https://kassiopea.xyz/",
+    "author": "Kassiopea inc",
+    "twitter": "Kassiopea_xyz",
+    "image": "kasiopea.jpg",
+    "description": "Ensure safe, simple, and scalable trading of commodities, RWA, and cryptocurrencies for everyone.",
+    "type": "DEX"
   }
 ]
