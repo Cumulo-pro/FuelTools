@@ -76,7 +76,8 @@
     "twitter": "FuelNameService",
     "description": "A platform that allows users to claim domain names on Fuel, which is a big step towards the adoption of Web3.",
     "image": "fuellname.png",
-    "type": "dns",
+    "logo": "logofuellname.jpg",
+    "type": "DNS",
     "guide": "https://medium.com/cumulo-pro/fuel-name-service-561de1f085f8"
   },
   {
