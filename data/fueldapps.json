@@ -169,5 +169,15 @@
     "description": "End-to-end observability platform to help you gain insights, secure assets and troubleshoot transactions for your decentralized applications",
     "type": "DEV",
     "guide": "https://docs.sentio.xyz/docs/readme"
+  },
+  {
+    "name": "Common Ground",
+    "url": "https://app.cg/",
+    "author": "Common Ground",
+    "twitter": "CommonGround_cg",
+    "image": "commonGround.jpg",
+    "logo": "logocommonGround.jpg",
+    "description": "Common Ground is a Web3 community communication platform designed to be user-owned and operated in a decentralised way. ",
+    "type": "Web3"    
   }
 ]
