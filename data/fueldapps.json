@@ -135,5 +135,15 @@
     "image": "kasiopea.jpg",
     "description": "Ensure safe, simple, and scalable trading of commodities, RWA, and cryptocurrencies for everyone.",
     "type": "DEX"
+  },
+  {
+    "name": "Oxiswap",
+    "url": "https://oxiswap.com/",
+    "author": "Oxiswap Ltd",
+    "twitter": "oxiswap",
+    "image": "oxiswap.jpg",
+    "logo": "logooxiswap.jpg",
+    "description": "Lightning-Fast Decentralized Exchange Built On The Fuel Network",
+    "type": "DEX"
   }
 ]
