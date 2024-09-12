@@ -122,6 +122,7 @@
     "twitter": "bakosafe",
     "description": "The native non-custodial multi signature wallet of Fuel Network",
     "image": "bako.jpg",
+    "logo": "logobako.jpg",
     "type": "wallet"
   },
   {
