@@ -179,5 +179,15 @@
     "logo": "logocommonGround.jpg",
     "description": "Common Ground is a Web3 community communication platform designed to be user-owned and operated in a decentralised way. ",
     "type": "Web3"    
+  },
+  {
+    "name": "ORAO",
+    "url": "https://orao.network/",
+    "author": "ORAO",
+    "twitter": "OraoNetwork",
+    "image": "orao.jpg",
+    "logo": "logoorao.jpg",
+    "description": "Oracle network designed to provide agnostic, accurate and customised data to multiple blockchains, including real-time data such as e-sports scores, weather reports and insurance prices.",
+    "type": "Web3"    
   }
 ]
