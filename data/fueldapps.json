@@ -35,6 +35,7 @@
     "twitter": "FueletWallet",
     "description": "The leading and non-custodial account abstraction wallet on Fuel",
     "image": "fuellet.png",
+    "logo": "logofuellet.jpg",
     "type": "wallet",
     "guide": "https://medium.com/cumulo-pro/fuelet-wallet-installation-and-setup-guide-4cc4e3ad1258"
   },
