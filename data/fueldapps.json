@@ -59,12 +59,13 @@
     "guide": "https://medium.com/@gvdlv4/how-to-play-sway-farm-game-on-beta-5-c90fb22217a3"
   },
   {
-    "name": "sway-playground",
+    "name": "Sway",
     "url": "https://www.sway-playground.org",
     "author": "Fuel",
-    "twitter": "fuel_network",
+    "twitter": "SwayLang",
     "description": "Sway Playground is an online development environment for writing, testing, and deploying smart contracts on the Fuel blockchain.",
     "image": "sway-playground.png",
+    "logo": "logosway.jpg",
     "type": "DEV",
     "guide": "https://github.com/FuelLabs/sway-playground"
   },
