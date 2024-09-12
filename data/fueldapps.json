@@ -65,7 +65,7 @@
     "twitter": "fuel_network",
     "description": "Sway Playground is an online development environment for writing, testing, and deploying smart contracts on the Fuel blockchain.",
     "image": "sway-playground.png",
-    "type": "dev",
+    "type": "DEV",
     "guide": "https://github.com/FuelLabs/sway-playground"
   },
   {
@@ -145,5 +145,16 @@
     "logo": "logooxiswap.jpg",
     "description": "Lightning-Fast Decentralized Exchange Built On The Fuel Network",
     "type": "DEX"
+  },
+  {
+    "name": "ENVIO",
+    "url": "https://envio.dev/",
+    "author": "Envio",
+    "twitter": "envio_indexer",
+    "image": "envio.jpg",
+    "logo": "logoenvio.jpg",
+    "description": "The fastest, most flexible way to get on-chain data. Any EVM L1, L2, L3 & Fuel.",
+    "type": "DEV",
+    "guide": "https://docs.envio.dev/docs/HyperIndex/overview"
   }
 ]
