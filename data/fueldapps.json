@@ -157,5 +157,16 @@
     "description": "The fastest, most flexible way to get on-chain data. Any EVM L1, L2, L3 & Fuel.",
     "type": "DEV",
     "guide": "https://docs.envio.dev/docs/HyperIndex/overview"
+  },
+  {
+    "name": "Sentio",
+    "url": "https://app.sentio.xyz/",
+    "author": "Sentio XYZ Inc",
+    "twitter": "sentioxyz",
+    "image": "sentio.jpg",
+    "logo": "logosentio.jpg",
+    "description": "End-to-end observability platform to help you gain insights, secure assets and troubleshoot transactions for your decentralized applications",
+    "type": "DEV",
+    "guide": "https://docs.sentio.xyz/docs/readme"
   }
 ]
