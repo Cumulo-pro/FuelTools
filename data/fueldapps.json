@@ -188,6 +188,16 @@
     "image": "orao.jpg",
     "logo": "logoorao.jpg",
     "description": "Oracle network designed to provide agnostic, accurate and customised data to multiple blockchains, including real-time data such as e-sports scores, weather reports and insurance prices.",
-    "type": "Web3"    
+    "type": "Oracle"    
+  },
+  {
+    "name": "Pyth Network",
+    "url": "https://www.pyth.network/",
+    "author": "ORAO",
+    "twitter": "OraoNetwork",
+    "image": "pyth.jpg",
+    "logo": "logopyth.jpg",
+    "description": "A decentralised oracle network designed to bring real-world data into smart contracts on multiple blockchains. ",
+    "type": "Oracle"    
   }
 ]
