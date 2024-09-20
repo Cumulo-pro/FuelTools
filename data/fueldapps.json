@@ -202,5 +202,15 @@
     "logo": "logopyth.jpg",
     "description": "A decentralised oracle network designed to bring real-world data into smart contracts on multiple blockchains. ",
     "type": "Oracle"    
+  },
+  {
+    "name": "Griffy",
+    "url": "https://trade.griffy.app/",
+    "author": "https://www.tantheta.io/",
+    "twitter": "GriffyCommunity",
+    "image": "griffy.jpg",
+    "logo": "logogriffy.jpg",
+    "description": "The first ever truly decentralised prediction market with on-chain order matching",
+    "type": "DeFi"    
   }
 ]
