@@ -5,7 +5,8 @@
     "author": "Fuelet Wallet",
     "author_link": "https://x.com/FueletWallet",
     "date": "19/09/24",
-    "image": "fuelet1.png"
+    "image": "fuelet1.png",
+    "type": "mirror"
   },
   {
     "title": "The FuelVM: Purpose-Built Execution for Ethereum Rollups",
@@ -13,6 +14,16 @@
     "author": "Fuel",
     "author_link": "https://x.com/fuel_network",
     "date": "19/09/24",
-    "image": "fuel1.jpeg"
+    "image": "fuel1.jpeg",
+    "type": "mirror"
+  },
+  {
+    "title": "MIRA’s liquidity pools are live on Fuel Testnet!",
+    "link": "https://x.com/MiraProtocol/status/1836125641613414845",
+    "author": "MiraProtocol",
+    "author_link": "https://x.com/fuel_network",
+    "date": "17/09/24",
+    "image": "mira1.jpeg",
+    "type": "x"
   }
 ]
