@@ -212,5 +212,15 @@
     "logo": "logogriffy.jpg",
     "description": "The first ever truly decentralised prediction market with on-chain order matching",
     "type": "DeFi"    
+  },
+  {
+    "name": "Fluid Protocol",
+    "url": "https://fluidprotocol.xyz/",
+    "author": "Fluid Protocol",
+    "twitter": "Fluid_Protocol",
+    "image": "fluid.jpg",
+    "logo": "logofluid.jpg",
+    "description": "USDF is the native decentralized stablecoin for Fuel",
+    "type": "DeFi"    
   }
 ]
