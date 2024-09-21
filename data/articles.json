@@ -6,7 +6,8 @@
     "author_link": "https://x.com/FueletWallet",
     "date": "20/09/24",
     "image": "fuelet2.jpg",
-    "type": "x"
+    "type": "x",
+    "tags": ["Fuelet", "wallet", "updates", "dapps"]
   }, 
   {
     "title": "Fuel Mainnet 2024 is Close: How to Prepare and What Ecosystem Projects You Need to Know Now!",
@@ -15,7 +16,8 @@
     "author_link": "https://x.com/FueletWallet",
     "date": "19/09/24",
     "image": "fuelet1.png",
-    "type": "mirror"
+    "type": "mirror",
+    "tags": ["Fuelet", "ecosystem", "mainnet", "dapps"]
   },
   {
     "title": "The FuelVM: Purpose-Built Execution for Ethereum Rollups",
@@ -24,16 +26,18 @@
     "author_link": "https://x.com/fuel_network",
     "date": "19/09/24",
     "image": "fuel1.jpeg",
-    "type": "mirror"
+    "type": "mirror",
+    "tags": ["Fuel", "rollups", "tech"]
   },
   {
     "title": "MIRA’s liquidity pools are live on Fuel Testnet!",
     "link": "https://x.com/MiraProtocol/status/1836125641613414845",
-    "author": "MiraProtocol",
+    "author": "Mira Protocol",
     "author_link": "https://x.com/fuel_network",
     "date": "17/09/24",
     "image": "mira1.jpeg",
-    "type": "x"
+    "type": "x",
+    "tags": ["Mira", "DeFi", "testnet", "dapps"]
   },
   {
     "title": "Parallelization in blockchain virtual machines",
@@ -42,7 +46,8 @@
     "author_link": "https://x.com/GriffyCommunity",
     "date": "13/09/24",
     "image": "griffy1.jpeg",
-    "type": "x"
+    "type": "x",
+     "tags": ["Griffy", "tech", "meme"]
   },
   {
     "title": "Fluid Protocol and Mira Protocol are excited to announce a strategic partnership",
@@ -51,7 +56,8 @@
     "author_link": "https://x.com/Fluid_Protocol",
     "date": "18/09/24",
     "image": "fluid1.jpg",
-    "type": "x"
+    "type": "x",
+    "tags": ["Fluid", "Mira", "DeFi", "dapps"]
   },
   {
     "title": "The Fuel Ecosystem",
@@ -60,6 +66,17 @@
     "author_link": "https://x.com/Fluid_Protocol",
     "date": "12/09/24",
     "image": "bakosafe1.jpeg",
-    "type": "x"
+    "type": "x".
+    "tags": ["Bako", "ecosystem", "dapps"]
+  },
+  {
+    "title": "What if you could get rewarded for protecting DeFi?",
+    "link": "https://x.com/PythNetwork/status/1837382947349102987",
+    "author": "Pyth Network",
+    "author_link": "https://x.com/PythNetwork",
+    "date": "21/09/24",
+    "image": "pyth1.jpg",
+    "type": "x".
+    "tags": ["Pyth", "ecosystem", "dapps"]
   }
   ]
