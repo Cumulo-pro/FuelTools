@@ -47,7 +47,7 @@
     "date": "13/09/24",
     "image": "griffy1.jpeg",
     "type": "x",
-     "tags": ["Griffy", "tech", "meme"]
+    "tags": ["Griffy", "tech", "meme"]
   },
   {
     "title": "Fluid Protocol and Mira Protocol are excited to announce a strategic partnership",
@@ -66,7 +66,7 @@
     "author_link": "https://x.com/Fluid_Protocol",
     "date": "12/09/24",
     "image": "bakosafe1.jpeg",
-    "type": "x".
+    "type": "x",
     "tags": ["Bako", "ecosystem", "dapps"]
   },
   {
@@ -76,7 +76,7 @@
     "author_link": "https://x.com/PythNetwork",
     "date": "21/09/24",
     "image": "pyth1.jpg",
-    "type": "x".
+    "type": "x",
     "tags": ["Pyth", "ecosystem", "dapps"]
   }
-  ]
+]
