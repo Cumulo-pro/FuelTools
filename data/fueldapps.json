@@ -222,15 +222,5 @@
     "logo": "logofluid.jpg",
     "description": "USDF is the native decentralized stablecoin for Fuel",
     "type": "DeFi"    
-  },
-  {
-    "name": "Sail",
-    "url": "https://www.sail.exchange/",
-    "author": "",
-    "twitter": "_sailexchange",
-    "image": "sail.jpg",
-    "logo": "logosail.jpg",
-    "description": "Order book DEX Powered by Fuel",
-    "type": "DeFi"    
   }
 ]
