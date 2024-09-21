@@ -222,5 +222,15 @@
     "logo": "logofluid.jpg",
     "description": "USDF is the native decentralized stablecoin for Fuel",
     "type": "DeFi"    
+  },
+  {
+    "name": "Fuel Dot Fun",
+    "url": "https://getfuel.fun/",
+    "author": "Unpaid Labs",
+    "twitter": "fueldotfun",
+    "image": "fueldotfun.jpg",
+    "logo": "logofueldotfun.jpg",
+    "description": "Launch a coin that is instantly tradeable in one click  on Fuel",
+    "type": "DeFi"    
   }
 ]
