@@ -232,5 +232,15 @@
     "logo": "logofueldotfun.jpg",
     "description": "Launch a coin that is instantly tradeable in one click  on Fuel",
     "type": "DeFi"    
+  },
+  {
+    "name": "Catalyst Launchpad",
+    "url": "https://fuelcatalyst.io/",
+    "author": "Impossible Finance",
+    "twitter": "fuel_catalyst",
+    "image": "catalyst.jpg",
+    "logo": "logocatalyst.jpg",
+    "description": "The native launchpad of the Fuel ecosystem",
+    "type": "DeFi"    
   }
 ]
