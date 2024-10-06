@@ -242,5 +242,15 @@
     "logo": "logocatalyst.jpg",
     "description": "The native launchpad of the Fuel ecosystem",
     "type": "DeFi"    
+  },
+  {
+    "name": "Ruscet Exchange",
+    "url": "https://ruscet.xyz/",
+    "author": "Ruscet",
+    "twitter": "ruscetfi",
+    "image": "ruscetfi.jpg",
+    "logo": "logoruscetfi.jpg",
+    "description": "A decentralized perpetuals exchange offering low-latency order execution, and unparalleled liquidity.",
+    "type": "DEX"    
   }
 ]
