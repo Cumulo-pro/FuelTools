@@ -262,5 +262,15 @@
     "logo": "logochrono.jpg",
     "description": "Chrono Vaults is an asset management and  transfer system using predicates on Fuel.",
     "type": "DEV"    
+  },
+  {
+    "name": "Executoors",
+    "url": "https://executoors.com/",
+    "author": "Executoors",
+    "twitter": "executoors",
+    "image": "executoors.jpg",
+    "logo": "logoexecutoors.jpg",
+    "description": "In search of the most flawless execution environment",
+    "type": "NFT"    
   }
 ]
