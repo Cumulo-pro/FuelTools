@@ -252,5 +252,15 @@
     "logo": "logoruscetfi.jpg",
     "description": "A decentralized perpetuals exchange offering low-latency order execution, and unparalleled liquidity.",
     "type": "DEX"    
+  },
+  {
+    "name": "Chrono Vaults",
+    "url": "https://chrono-vaults.vercel.app/",
+    "author": "AlphaDevs",
+    "twitter": "",
+    "image": "chrono.jpg",
+    "logo": "logochrono.jpg",
+    "description": "Chrono Vaults is an asset management and  transfer system using predicates on Fuel.",
+    "type": "DEV"    
   }
 ]
