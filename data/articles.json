@@ -1,5 +1,95 @@
 [
    {
+    "title": "Fluid Protocol’s Beta is LIVE on @fuel_network Ignition!",
+    "link": "https://x.com/Fluid_Protocol/status/1859639707266843056",
+    "author": "Fluid Protocol",
+    "author_link": "https://x.com/Fluid_Protocol/",
+    "date": "21/11/24",
+    "image": "fluid21.jpg",
+    "type": "x",
+    "tags": ["ecosystem", "mainnet", "updates"]
+  },
+{
+    "title": "MIRA’s Permissionless Pools are live!",
+    "link": "https://x.com/MiraProtocol/status/1864280993802174732",
+    "author": "MIRA",
+    "author_link": "https://x.com/MiraProtocol ",
+    "date": "04/12/24",
+    "image": "mira412.jpg",
+    "type": "x",
+    "tags": ["ecosystem", "mainnet", "updates","DeFi"]
+  },
+{
+    "title": "Fuelet Wallet is now available on both iOS and Android",
+    "link": "https://x.com/FueletWallet/status/1862104155252265377",
+    "author": "Fuelet Wallet",
+    "author_link": "https://x.com/FueletWallet",
+    "date": "28/11/24",
+    "image": "fueletmovil.jpg",
+    "type": "x",
+    "tags": ["ecosystem", "mainnet", "updates", "wallet"]
+  },
+{
+    "title": "We’re excited to announce the listing of USDC/USDT on Spark!",
+    "link": "https://x.com/Sprkfi/status/1863605882107412572",
+    "author": "SPARK",
+    "author_link": "https://x.com/Sprkfi",
+    "date": "02/12/24",
+    "image": "spark21.jpg",
+    "type": "x",
+    "tags": ["ecosystem", "mainnet", "updates","DeFi"]
+  },
+{
+    "title": "Swaylend launch the SwayPoints system",
+    "link": "https://x.com/swaylend/status/1863901745765572794",
+    "author": "Swaylend",
+    "author_link": "https://x.com/swaylend",
+    "date": "03/12/24",
+    "image": "swaylend312.jpg",
+    "type": "x",
+    "tags": ["ecosystem", "mainnet", "updates"]
+  },
+{
+    "title": "ORAO launched their VRF on Fuel",
+    "link": "https://x.com/OraoNetwork/status/1854560524702208318",
+    "author": "ORAO",
+    "author_link": "https://x.com/OraoNetwork",
+    "date": "07/11/24",
+    "image": "orao711.jpg",
+    "type": "x",
+    "tags": ["ecosystem", "mainnet", "updates"]
+  },
+{
+    "title": "Swaylend announce their collaboration with Fuel Dudes",
+    "link": "https://x.com/swaylend/status/1860985040479437074",
+    "author": "Swaylend",
+    "author_link": "https://x.com/swaylend",
+    "date": "25/11/24",
+    "image": "swaylend2511.jpg",
+    "type": "x",
+    "tags": ["ecosystem", "mainnet", "updates"]
+  },
+{
+    "title": "Dont miss Fuel Ignition Landscape W49/2024 by Catalyst 🔥",
+    "link": "https://x.com/fuel_catalyst/status/1863520032841707859",
+    "author": "Catalyst Launchpad",
+    "author_link": "https://x.com/fuel_catalyst",
+    "date": "02/11/24",
+    "image": "catalyst211.jpg",
+    "type": "x",
+    "tags": ["ecosystem", "mainnet", "updates"]
+  },
+{
+    "title": "Discover native and non-native wallets on Fuel",
+    "link": "https://x.com/denodes_io/status/1854538186841596400",
+    "author": "deNodes",
+    "author_link": "https://x.com/denodes_io",
+    "date": "07/11/24",
+    "image": "denodes711.jpg",
+    "type": "x",
+    "tags": ["ecosystem", "mainnet", "updates"]
+  },
+   {
     "title": "Fuel Name Service extends the Last Wave 🌊",
     "link": "https://x.com/FuelNameService/status/1853059553232920687",
     "author": "Fuel Name Service",
