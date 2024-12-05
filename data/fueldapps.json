@@ -272,5 +272,14 @@
     "logo": "logoexecutoors.jpg",
     "description": "In search of the most flawless execution environment",
     "type": "NFT"    
+  },
+    {
+    "name": "Fuel Dudes",
+    "url": "https://fueldudes.xyz/",
+    "author": "Fuel Dudes ",
+    "twitter": "FuelDudes",
+    "description": "999 chill pixel dudes vibing on Fuel network",
+    "image": "fueldudes.jpg",
+    "type": "NFT"
   }
 ]
