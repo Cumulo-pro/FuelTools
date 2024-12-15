@@ -1,5 +1,75 @@
 [
    {
+    "title": "Fuel Genesis is coming",
+    "link": "https://x.com/fuel_network/status/1866467935801180532",
+    "author": "Fuel",
+    "author_link": "https://x.com/fuel_network ",
+    "date": "10/12/24",
+    "image": "fuel1512.jpg",
+    "type": "x",
+    "tags": ["Fuel", "mainnet", "updates"]
+  },
+{
+    "title": "Community Expansion",
+    "link": "https://x.com/fuel_network/status/1866836648001941971",
+    "author": "Fuel",
+    "author_link": "https://x.com/fuel_network ",
+    "date": "13/12/24",
+    "image": "fuel1312.jpg",
+    "type": "x",
+    "tags": ["Fuel", "mainnet", "updates"]
+  },
+{
+    "title": "Rishabh Keshan",
+    "link": "https://x.com/KeshanRishabh/status/1866401936896917635",
+    "author": "Keshan ",
+    "author_link": "https://x.com/KeshanRishabh",
+    "date": "10/12/24",
+    "image": "keshan1012.jpg",
+    "type": "x",
+    "tags": ["Fuel", "mainnet", "build"]
+  },
+{
+    "title": "A new  Fuel Network Landscape W50/2024 by Catalyst",
+    "link": "https://x.com/fuel_catalyst/status/1866081830598045731",
+    "author": "Catalyst",
+    "author_link": "https://x.com/fuel_catalyst",
+    "date": "10/12/24",
+    "image": "catalyst1012.jpg",
+    "type": "x",
+    "tags": ["ecosystem", "mainnet", "updates"]
+  },
+{
+    "title": "Impossible Finance whitelist campaing",
+    "link": "https://x.com/impossiblefi/status/1867509948491645248",
+    "author": "Impossible Finance",
+    "author_link": "https://x.com/impossiblefi",
+    "date": "13/12/24",
+    "image": "impossible1312.jpg",
+    "type": "x",
+    "tags": ["token", "mainnet", "updates"]
+  },
+{
+    "title": "Ignition this past month",
+    "link": "https://x.com/Rubenevolent/status/1867569191466779023",
+    "author": "Rubyto.fuel",
+    "author_link": "https://x.com/Rubenevolent ",
+    "date": "13/12/24",
+    "image": "rubyto1312.jpg",
+    "type": "x",
+    "tags": ["Fuel", "mainnet", "updates"]
+  },
+{
+    "title": "$50M total supply milestone on Swaylend",
+    "link": "https://x.com/swaylend/status/1866864953778638966",
+    "author": "Swaylend",
+    "author_link": "https://x.com/swaylend",
+    "date": "13/12/24",
+    "image": "swaylend1312.jpg",
+    "type": "x",
+    "tags": ["ecosystem", "mainnet", "updates"]
+  },
+   {
     "title": "Fluid Protocol’s Beta is LIVE on @fuel_network Ignition!",
     "link": "https://x.com/Fluid_Protocol/status/1859639707266843056",
     "author": "Fluid Protocol",
