@@ -58,60 +58,84 @@ Sum and Count:
 
 **Fuel Block Size Metric:** A metric that tracks the size of the blocks in the Fuel network. This metric is reported in bytes and indicates the size of the current block being processed by the consensus protocol. Monitoring the block size helps ensure that blocks remain within acceptable limits for efficient processing and that the network can handle the volume of data generated.  
 
+![image](https://github.com/user-attachments/assets/a8d5448a-03b9-4ba3-8f30-bbe3a93b501e)
+
 ## BYZANTINE VALIDATORS  
 *cometbft_consensus_byzantine_validators*   
 
 **Fuel Byzantine Validators Metric:** A metric that counts the number of validators who attempted to double sign in the Fuel network. Double signing refers to a validator signing two conflicting blocks, which is a violation of consensus rules. If the value is 0, it means that no validators have attempted to double sign.  
+
+![image](https://github.com/user-attachments/assets/7e060114-b415-4e44-acd8-404eec893cb4)
 
 ## BYZANTINE VALIDATORS POWER  
 *cometbft_consensus_byzantine_validators_power*  
 
 **Fuel Byzantine Validators Power Metric:** A metric that tracks the total power of the validators who attempted to double sign in the Fuel network. Validator power represents the weight of a validator in the consensus mechanism. If the value is 0, it means that no Byzantine validators exist, and hence there is no associated power.
 
+![image](https://github.com/user-attachments/assets/bd24bae0-2dc9-4f6f-b1fa-389ec07d23fa)
+
 ## CHAIN SIZE  
 *cometbft_consensus_chain_size_bytes*  
 
 **Fuel Chain Size Metric:** A metric that tracks the total size of the chain in bytes. This includes all blocks and data stored in the blockchain. Monitoring the chain size is important for understanding the growth of the blockchain and ensuring it remains manageable for all nodes.  
+
+![image](https://github.com/user-attachments/assets/3bcbab6f-7cdd-4392-ae3d-11f9e5cc5ac4)
 
 ## DUPLICATE BLOCK PARTS  
 *cometbft_consensus_duplicate_block_part*  
 
 **Fuel Duplicate Block Parts Metric:** A metric that tracks the number of duplicate block parts received by the node. Duplicate parts occur when the same piece of a block is transmitted multiple times, either due to network issues or inefficiencies in block propagation.  
 
+![image](https://github.com/user-attachments/assets/1b5d0a68-540f-46b1-8e48-3f3b96481353)
+
 ## DUPLICATE VOTES  
 *cometbft_consensus_duplicate_vote*  
 
 **Fuel Duplicate Votes Metric:** A metric that counts the number of duplicate votes received by the node. Duplicate votes occur when the same vote is transmitted more than once, which can happen due to network issues or miscommunication between validators.  
+
+![image](https://github.com/user-attachments/assets/5b018677-3319-41cb-a209-5e688980039a)
 
 ## CHAIN HEIGHT  
 *cometbft_consensus_height*  
 
 **Fuel Chain Height Metric:** A metric that tracks the current height of the blockchain. The blockchain height represents the number of blocks in the chain and is an essential indicator of the network's progress. This metric helps in monitoring the advancement of the blockchain and determining how far a node is from the latest block.  
 
+![image](https://github.com/user-attachments/assets/8813d52f-bdb5-45ea-bd3e-29659ad646ab)
+
 ## LATE VOTES  
 *cometbft_consensus_late_votes*  
 
 **Fuel Late Votes Metric:** A metric that tracks the number of votes received by the node that correspond to earlier heights and rounds than the node is currently in. This can happen when votes are delayed due to network issues or miscommunication. It is crucial for monitoring whether votes are being processed within the correct consensus window.  
+
+![image](https://github.com/user-attachments/assets/e51e6d0c-87d3-4267-8248-b95e40c957e1)
 
 ## LATEST BLOCK HEIGHT  
 *cometbft_consensus_latest_block_height*  
 
 **Fuel Latest Block Height Metric:** A metric that tracks the latest block height in the blockchain. The latest block height indicates the most recent block that has been added to the chain. It is a vital metric for synchronizing nodes and ensuring that they are up to date with the latest block.  
 
+![image](https://github.com/user-attachments/assets/0111d18a-b15c-44f6-8839-f560f5759ca4)
+
 ## MISSING VALIDATORS  
 *cometbft_consensus_missing_validators*  
 
 **Fuel Missing Validators Metric:** A metric that tracks the number of validators who did not sign the current block. When this value is 0, it indicates that all validators have signed the block. If this value is greater than 0, it implies that some validators have failed to sign the block, which could affect the overall consensus process.  
+
+![image](https://github.com/user-attachments/assets/0319be1b-9b12-4763-a83d-20722650260c)
 
 ## MISSING VALIDATORS POWER  
 *cometbft_consensus_missing_validators_power*  
 
 **Fuel Missing Validators Power Metric:** A metric that tracks the total power of the validators who did not sign the current block. Validator power represents the weight of a validator's vote in the consensus process. If the value is 0, it indicates that no validators are missing, and their power is included in the consensus.  
 
+![image](https://github.com/user-attachments/assets/fa662f24-46a9-4cb7-930e-2b48143069cb)
+
 ## NUMBER OF TRANSACTIONS  
 *cometbft_consensus_num_txs*  
 
 **Fuel Number of Transactions Metric:** A metric that tracks the total number of transactions processed by the network. This helps monitor the transaction volume and assess the overall activity on the blockchain. A higher number of transactions indicates more activity on the chain.  
+
+![image](https://github.com/user-attachments/assets/187abae6-28b9-4d1a-9ad9-61a2c0e0266d)
 
 ## PROPOSAL RECEIVE COUNT
 *cometbft_consensus_proposal_receive_count*  
