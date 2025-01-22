@@ -17,10 +17,10 @@ Value:
 
 **Fuel Block Gossip Metric:** A metric that tracks the number of block parts received by the node. The metric distinguishes between parts that are relevant to the block the node is trying to gather and those that are not.
 
--When the matches_current label is set to true, it indicates that the block part is relevant to the block the node is currently trying to gather.
+-When the matches_current label is set to true, it indicates that the block part is relevant to the block the node is currently trying to gather.  
 -When the matches_current label is set to false, it indicates that the block part is not relevant to the current block being gathered.
 Value:
 
-matches_current="true": The received block part is relevant to the current block being gathered.
+matches_current="true": The received block part is relevant to the current block being gathered.  
 matches_current="false": The received block part is not relevant to the current block.
 
