@@ -113,6 +113,18 @@ Sum and Count:
 
 **Fuel Number of Transactions Metric:** A metric that tracks the total number of transactions processed by the network. This helps monitor the transaction volume and assess the overall activity on the blockchain. A higher number of transactions indicates more activity on the chain.  
 
+## PROPOSAL RECEIVE COUNT
+*cometbft_consensus_proposal_receive_count*  
 
+**Fuel Proposal Receive Count Metric:**  
+A metric that tracks the total number of proposals received by the node since the process started. The metric is annotated by the status of the proposal, which can either be "accepted" or "rejected".  
+
+-When the proposal is accepted, it means that the proposal was successfully processed and agreed upon by the node.  
+-When the proposal is rejected, it indicates that the proposal was not accepted due to various reasons, such as consensus issues or validation failures.  
+Monitoring this metric helps track the node's participation in the consensus process and the success rate of proposals it has received.
+
+Labels:  
+-chain_id: The ID of the chain, in this case seq-mainnet-1.  
+-status: The status of the proposal, either accepted or rejected.  
 
 
