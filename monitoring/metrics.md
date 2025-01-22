@@ -153,3 +153,58 @@ Labels:
 
 ![image](https://github.com/user-attachments/assets/fdda2705-8725-4a68-b11d-2c6ca846e1b7)
 
+## TOTAL TRANSACTIONS  
+*cometbft_consensus_total_txs*  
+
+**Fuel Total Transactions Metric:** A metric that tracks the total number of transactions processed by the network. This metric helps in monitoring the overall transaction activity on the blockchain, giving insights into the level of usage and activity within the network.  
+
+## VALIDATOR LAST SIGNED HEIGHT  
+*cometbft_consensus_validator_last_signed_height*  
+
+**Fuel Validator Last Signed Height Metric:** A metric that tracks the last height signed by a specific validator. This helps monitor whether the validator is keeping up with the chain and participating in signing blocks. The height represents the most recent block that the validator has signed.  
+
+## VALIDATOR MISSED BLOCKS  
+*cometbft_consensus_validator_missed_blocks*  
+
+**Fuel Validator Missed Blocks Metric:** A metric that tracks the number of blocks missed by a specific validator. If the validator is not signing blocks or fails to participate in the consensus process, the missed blocks count will increase. Monitoring this metric is important for assessing the reliability and performance of validators.  
+
+## VALIDATOR POWER  
+*cometbft_consensus_validator_power*  
+
+**Fuel Validator Power Metric:** A metric that tracks the power of a specific validator. Validator power represents the weight of the validator's vote in the consensus mechanism. This power is typically determined by the amount of staked tokens or other mechanisms within the consensus protocol.  
+  
+## NUMBER OF VALIDATORS  
+*cometbft_consensus_validators*  
+
+**Fuel Number of Validators Metric:** A metric that tracks the total number of validators participating in the network. This helps monitor the decentralization of the network and the number of entities responsible for validating and securing the blockchain.  
+
+## TOTAL VALIDATORS POWER  
+*cometbft_consensus_validators_power*  
+
+**Fuel Total Validators Power Metric:** A metric that tracks the total power of all validators in the network. This represents the combined weight of all validators' votes in the consensus process, which affects the overall decision-making and finality of blocks in the blockchain.  
+
+## ACTIVE OUTBOUND CONNECTIONS (MEMPOOL)  
+*cometbft_mempool_active_outbound_connections*
+
+**Fuel Active Outbound Connections in Mempool Metric:** A metric that tracks the number of active outbound connections used for gossiping transactions in the mempool. This metric helps monitor the network's activity regarding transaction propagation.  
+
+## FAILED TRANSACTIONS (MEMPOOL)  
+*cometbft_mempool_failed_txs*  
+
+**Fuel Failed Transactions Metric:** A metric that tracks the number of transactions that failed to be processed in the mempool. Failed transactions can occur due to network issues, validation failures, or other factors.  
+
+## MEMPOOL RECHECK TIMES
+*cometbft_mempool_recheck_times*  
+
+**Fuel Mempool Recheck Times Metric:** A metric that tracks the number of times transactions have been rechecked in the mempool. Rechecks are typically performed to validate or confirm the status of transactions that were previously pending.  
+
+## MEMPOOL SIZE
+*cometbft_mempool_size*  
+
+**Fuel Mempool Size Metric:** A metric that tracks the number of uncommitted transactions in the mempool. This metric is useful for assessing the current transaction load on the network and understanding the state of pending transactions.    
+
+## MEMPOOL SIZE (BYTES)  
+*cometbft_mempool_size_bytes*
+
+**Fuel Mempool Size in Bytes Metric:** A metric that tracks the total size of the mempool in bytes. Monitoring the size of the mempool is important for understanding the resource usage and ensuring that the node can handle the load of pending transactions efficiently.  
+
