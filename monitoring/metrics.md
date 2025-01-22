@@ -25,3 +25,7 @@ Value:
 matches_current="true": The received block part is relevant to the current block being gathered.  
 matches_current="false": The received block part is not relevant to the current block.
 
+![image](https://github.com/user-attachments/assets/e825d855-9588-414c-b7fc-79839506cd17)
+
+
+
