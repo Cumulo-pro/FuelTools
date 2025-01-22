@@ -51,5 +51,36 @@ le="+Inf": Blocks with any interval (greater than 10 seconds).
 
 Sum and Count:  
 - sum: The total sum of all block intervals.  
-- count: The total number of blocks recorded.  
+- count: The total number of blocks recorded.   
+
+## BLOCK SIZE  
+*cometbft_consensus_block_size_bytes*  
+
+**Fuel Block Size Metric:** A metric that tracks the size of the blocks in the Fuel network. This metric is reported in bytes and indicates the size of the current block being processed by the consensus protocol. Monitoring the block size helps ensure that blocks remain within acceptable limits for efficient processing and that the network can handle the volume of data generated.  
+
+## BYZANTINE VALIDATORS  
+*cometbft_consensus_byzantine_validators*   
+
+**Fuel Byzantine Validators Metric:** A metric that counts the number of validators who attempted to double sign in the Fuel network. Double signing refers to a validator signing two conflicting blocks, which is a violation of consensus rules. If the value is 0, it means that no validators have attempted to double sign.  
+
+## BYZANTINE VALIDATORS POWER  
+*cometbft_consensus_byzantine_validators_power*  
+
+**Fuel Byzantine Validators Power Metric:** A metric that tracks the total power of the validators who attempted to double sign in the Fuel network. Validator power represents the weight of a validator in the consensus mechanism. If the value is 0, it means that no Byzantine validators exist, and hence there is no associated power.
+
+## CHAIN SIZE  
+*cometbft_consensus_chain_size_bytes*  
+
+**Fuel Chain Size Metric:** A metric that tracks the total size of the chain in bytes. This includes all blocks and data stored in the blockchain. Monitoring the chain size is important for understanding the growth of the blockchain and ensuring it remains manageable for all nodes.  
+
+## DUPLICATE BLOCK PARTS  
+*cometbft_consensus_duplicate_block_part*  
+
+**Fuel Duplicate Block Parts Metric:** A metric that tracks the number of duplicate block parts received by the node. Duplicate parts occur when the same piece of a block is transmitted multiple times, either due to network issues or inefficiencies in block propagation.  
+
+## DUPLICATE VOTES  
+*cometbft_consensus_duplicate_vote*  
+
+**Fuel Duplicate Votes Metric:** A metric that counts the number of duplicate votes received by the node. Duplicate votes occur when the same vote is transmitted more than once, which can happen due to network issues or miscommunication between validators.  
+
 
