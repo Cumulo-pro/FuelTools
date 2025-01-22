@@ -151,4 +151,5 @@ Labels:
 -chain_id: The ID of the chain, in this case seq-mainnet-1.  
 -status: The status of the proposal, either accepted or rejected.  
 
+![image](https://github.com/user-attachments/assets/fdda2705-8725-4a68-b11d-2c6ca846e1b7)
 
