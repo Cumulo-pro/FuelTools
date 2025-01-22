@@ -27,5 +27,29 @@ matches_current="false": The received block part is not relevant to the current 
 
 ![image](https://github.com/user-attachments/assets/e825d855-9588-414c-b7fc-79839506cd17)
 
+## BLOCK INTERVAL
+*cometbft_consensus_block_interval_seconds*  
 
+**Fuel Block Interval Metric:** A metric that tracks the time between the current block and the last block. This metric is provided as a histogram, which allows for the measurement of block intervals within specific time ranges. The histogram has multiple buckets, each corresponding to a time interval, and counts the number of blocks whose interval falls within that range.  
+
+This metric helps in understanding the performance and frequency of block production in the network, with shorter intervals indicating faster block production and larger intervals showing slower block creation.  
+
+Buckets:  
+
+le="0.005": Blocks with an interval of 0.005 seconds or less.  
+le="0.01": Blocks with an interval of 0.01 seconds or less.  
+le="0.025": Blocks with an interval of 0.025 seconds or less.  
+le="0.05": Blocks with an interval of 0.05 seconds or less.  
+le="0.1": Blocks with an interval of 0.1 seconds or less.  
+le="0.25": Blocks with an interval of 0.25 seconds or less.  
+le="0.5": Blocks with an interval of 0.5 seconds or less.  
+le="1": Blocks with an interval of 1 second or less.  
+le="2.5": Blocks with an interval of 2.5 seconds or less.  
+le="5": Blocks with an interval of 5 seconds or less.  
+le="10": Blocks with an interval of 10 seconds or less.  
+le="+Inf": Blocks with any interval (greater than 10 seconds).  
+
+Sum and Count:  
+- sum: The total sum of all block intervals.  
+- count: The total number of blocks recorded.  
 
