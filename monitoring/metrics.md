@@ -83,4 +83,36 @@ Sum and Count:
 
 **Fuel Duplicate Votes Metric:** A metric that counts the number of duplicate votes received by the node. Duplicate votes occur when the same vote is transmitted more than once, which can happen due to network issues or miscommunication between validators.  
 
+## CHAIN HEIGHT  
+*cometbft_consensus_height*  
+
+**Fuel Chain Height Metric:** A metric that tracks the current height of the blockchain. The blockchain height represents the number of blocks in the chain and is an essential indicator of the network's progress. This metric helps in monitoring the advancement of the blockchain and determining how far a node is from the latest block.  
+
+## LATE VOTES  
+*cometbft_consensus_late_votes*  
+
+**Fuel Late Votes Metric:** A metric that tracks the number of votes received by the node that correspond to earlier heights and rounds than the node is currently in. This can happen when votes are delayed due to network issues or miscommunication. It is crucial for monitoring whether votes are being processed within the correct consensus window.  
+
+## LATEST BLOCK HEIGHT  
+*cometbft_consensus_latest_block_height*  
+
+**Fuel Latest Block Height Metric:** A metric that tracks the latest block height in the blockchain. The latest block height indicates the most recent block that has been added to the chain. It is a vital metric for synchronizing nodes and ensuring that they are up to date with the latest block.  
+
+## MISSING VALIDATORS  
+*cometbft_consensus_missing_validators*  
+
+**Fuel Missing Validators Metric:** A metric that tracks the number of validators who did not sign the current block. When this value is 0, it indicates that all validators have signed the block. If this value is greater than 0, it implies that some validators have failed to sign the block, which could affect the overall consensus process.  
+
+## MISSING VALIDATORS POWER  
+*cometbft_consensus_missing_validators_power*  
+
+**Fuel Missing Validators Power Metric:** A metric that tracks the total power of the validators who did not sign the current block. Validator power represents the weight of a validator's vote in the consensus process. If the value is 0, it indicates that no validators are missing, and their power is included in the consensus.  
+
+## NUMBER OF TRANSACTIONS  
+*cometbft_consensus_num_txs*  
+
+**Fuel Number of Transactions Metric:** A metric that tracks the total number of transactions processed by the network. This helps monitor the transaction volume and assess the overall activity on the blockchain. A higher number of transactions indicates more activity on the chain.  
+
+
+
 
