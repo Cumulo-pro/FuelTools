@@ -10,3 +10,4 @@ Value:
 - SYNC (syncing blocks)
 - NO SYNC (not syncing blocks)
 
+![image](https://github.com/user-attachments/assets/830410f6-e7f6-41a4-87af-21bba00ce2ad)
