@@ -172,6 +172,8 @@ Labels:
 
 **Fuel Validator Missed Blocks Metric:** A metric that tracks the number of blocks missed by a specific validator. If the validator is not signing blocks or fails to participate in the consensus process, the missed blocks count will increase. Monitoring this metric is important for assessing the reliability and performance of validators.  
 
+![image](https://github.com/user-attachments/assets/df0d1559-aced-40da-90bc-9000b4d50ec2)
+
 ## VALIDATOR POWER  
 *cometbft_consensus_validator_power*  
 
