@@ -151,12 +151,14 @@ Labels:
 -chain_id: The ID of the chain, in this case seq-mainnet-1.  
 -status: The status of the proposal, either accepted or rejected.  
 
-![image](https://github.com/user-attachments/assets/fdda2705-8725-4a68-b11d-2c6ca846e1b7)
+![image](https://github.com/user-attachments/assets/dd4a1d02-0610-4bdd-8654-33a31c695e39)
 
 ## TOTAL TRANSACTIONS  
 *cometbft_consensus_total_txs*  
 
 **Fuel Total Transactions Metric:** A metric that tracks the total number of transactions processed by the network. This metric helps in monitoring the overall transaction activity on the blockchain, giving insights into the level of usage and activity within the network.  
+
+![image](https://github.com/user-attachments/assets/c22dae89-8bea-4b21-99ea-37a1d2343d94)
 
 ## VALIDATOR LAST SIGNED HEIGHT  
 *cometbft_consensus_validator_last_signed_height*  
