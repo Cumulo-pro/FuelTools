@@ -165,6 +165,8 @@ Labels:
 
 **Fuel Validator Last Signed Height Metric:** A metric that tracks the last height signed by a specific validator. This helps monitor whether the validator is keeping up with the chain and participating in signing blocks. The height represents the most recent block that the validator has signed.  
 
+![image](https://github.com/user-attachments/assets/2adb139d-0611-4936-8dc2-5cf0dc2d4d2c)
+
 ## VALIDATOR MISSED BLOCKS  
 *cometbft_consensus_validator_missed_blocks*  
 
