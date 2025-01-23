@@ -179,12 +179,14 @@ Labels:
 
 **Fuel Validator Power Metric:** A metric that tracks the power of a specific validator. Validator power represents the weight of the validator's vote in the consensus mechanism. This power is typically determined by the amount of staked tokens or other mechanisms within the consensus protocol.  
 
-![image](https://github.com/user-attachments/assets/55b4b342-fadf-43d1-b270-6bbc10533fd2)
+![image](https://github.com/user-attachments/assets/3800b545-02ca-46a1-984d-6cd54df21b0d)
 
 ## NUMBER OF VALIDATORS  
 *cometbft_consensus_validators*  
 
 **Fuel Number of Validators Metric:** A metric that tracks the total number of validators participating in the network. This helps monitor the decentralization of the network and the number of entities responsible for validating and securing the blockchain.  
+
+![image](https://github.com/user-attachments/assets/ed921347-64ab-4410-a3bb-71aea08b31aa)
 
 ## TOTAL VALIDATORS POWER  
 *cometbft_consensus_validators_power*  
