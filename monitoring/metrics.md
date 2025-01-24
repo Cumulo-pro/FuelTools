@@ -231,6 +231,8 @@ Labels:
 
 **CometBFT Peer Connections Metric:** A gauge metric that tracks the number of active peer connections in the P2P layer of the network. This metric provides insight into the connectivity of the node with the network. Monitoring the number of peers is critical to ensure sufficient connections for block propagation, data exchange, and overall network health.    
 
+![image](https://github.com/user-attachments/assets/4fa0b5a7-44ce-4ed0-a81c-c1aa505c245c)
+
 ## AVERAGE BLOCK PROCESSING TIME
 *cometbft_state_block_processing_time_sum / cometbft_state_block_processing_time_count*  
 
@@ -239,6 +241,70 @@ Usage in a panel: This metric is ideal for monitoring the efficiency of block pr
 
 ![image](https://github.com/user-attachments/assets/0cae009c-99f5-4b21-b9f2-a143522d90f6)
 
+## CONSENSUS PARAMETER UPDATES  
+*cometbft_state_consensus_param_updates*  
+
+**CometBFT Consensus Parameter Updates Metric:** A counter metric that tracks the number of consensus parameter updates returned by the application since the node process started. This metric provides insights into how frequently the application adjusts key consensus parameters, which are critical for maintaining network stability and adapting to changing conditions.  
+
+## VALIDATOR SET UPDATES  
+*cometbft_state_validator_set_updates*  
+
+**CometBFT Validator Set Updates Metric:** A counter metric that tracks the total number of validator set updates returned by the application since the node process started. Validator set updates occur when there are changes in the validator composition, such as adding or removing validators or modifying their voting power. Monitoring this metric is essential for understanding network governance dynamics and ensuring a healthy and secure validator set.  
+
+## MINTED TOKENS  
+*sequencer_begin_block_minted_tokens*  
+
+**Sequencer Minted Tokens Metric:** A gauge metric that tracks the number of tokens minted at the beginning of a block by the sequencer. This metric is useful for understanding token issuance within the network and monitoring the rate of new token creation.   
+
+## ETHEREUM EVENT INDEX OFFSET
+*sequencer_store_ethereum_event_index_offset*  
+
+**Sequencer Ethereum Event Index Offset Metric:** A gauge metric that tracks the current offset of indexed Ethereum events. This metric is useful for ensuring the sequencer is correctly tracking Ethereum event logs and maintaining synchronization with the Ethereum network.  
+
+## INJECTED TRANSACTIONS  
+*sequencer_store_index_num_injected_txs_total*  
+
+**Sequencer Injected Transactions Metric:** A gauge metric that tracks the total number of injected transactions in the sequencer's index. This metric helps monitor how many transactions have been programmatically or manually injected into the network for processing.    
+
+## LAST CONSENSUS TRANSACTION SEQUENCE
+*sequencer_store_last_consensus_txs_sequence*  
+
+**Sequencer Last Consensus Transaction Sequence Metric:** A gauge metric that tracks the sequence number of the last consensus transaction processed by the sequencer. This metric is important for identifying the latest consensus state and monitoring transaction flow.  
+
+## LAST ETHEREUM BLOCK SYNCED
+*sequencer_store_last_ethereum_block_synced*
+
+**Sequencer Last Ethereum Block Synced Metric:** A gauge metric that tracks the latest Ethereum block synchronized by the sequencer. This metric is critical for monitoring the sync status of the sequencer with the Ethereum network.  
+
+## LAST ETHEREUM NONCE
+*sequencer_store_last_ethereum_nonce*  
+
+**Sequencer Last Ethereum Nonce Metric:** A gauge metric that tracks the latest Ethereum nonce observed by the sequencer. This metric provides insight into Ethereum transaction progress and nonce management.  
+
+## TIME SINCE LAST ETHEREUM UPDATE
+**sequencer_store_time_since_last_eth_update**  
+
+**Sequencer Time Since Last Ethereum Update Metric:** A gauge metric that tracks the time elapsed (in seconds) since the last Ethereum update processed by the sequencer. This metric is useful for identifying delays or lags in updating Ethereum-related data.  
+
+## TRANSACTION COUNT
+*tx_count*  
+
+**Transaction Count Metric:** A counter metric that tracks the total number of transactions processed by the network since the process started. This metric provides an overall view of network activity and transaction throughput.  
+
+## GAS USED
+*tx_gas_used*  
+
+**Transaction Gas Used Metric:** A gauge metric that tracks the total amount of gas used by the latest transaction processed. Monitoring this metric is critical for analyzing the cost of transactions and network resource utilization.  
+
+## GAS WANTED
+*tx_gas_wanted*  
+
+**Transaction Gas Wanted Metric:** A gauge metric that tracks the amount of gas requested by the latest transaction. This metric helps identify transaction demands and trends in gas consumption.  
+
+## SUCCESSFUL TRANSACTIONS
+*tx_successful*  
+
+**Successful Transactions Metric:** A counter metric that tracks the total number of successfully processed transactions. This metric provides an indication of the network's efficiency and ability to handle transactions without errors.  
 
 
 
