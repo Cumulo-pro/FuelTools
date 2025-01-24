@@ -200,6 +200,8 @@ Labels:
 
 **Fuel Active Outbound Connections in Mempool Metric:** A metric that tracks the number of active outbound connections used for gossiping transactions in the mempool. This metric helps monitor the network's activity regarding transaction propagation.  
 
+![image](https://github.com/user-attachments/assets/d0547dcf-c88d-4c49-adba-763566305eb8)
+
 ## FAILED TRANSACTIONS (MEMPOOL)  
 *cometbft_mempool_failed_txs*  
 
