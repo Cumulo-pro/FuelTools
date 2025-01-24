@@ -193,6 +193,8 @@ Labels:
 
 **Fuel Total Validators Power Metric:** A metric that tracks the total power of all validators in the network. This represents the combined weight of all validators' votes in the consensus process, which affects the overall decision-making and finality of blocks in the blockchain.  
 
+![image](https://github.com/user-attachments/assets/fed89975-96c6-4be6-920d-b578280f1659)
+
 ## ACTIVE OUTBOUND CONNECTIONS (MEMPOOL)  
 *cometbft_mempool_active_outbound_connections*
 
