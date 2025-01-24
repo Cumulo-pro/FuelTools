@@ -241,11 +241,6 @@ Usage in a panel: This metric is ideal for monitoring the efficiency of block pr
 
 ![image](https://github.com/user-attachments/assets/0cae009c-99f5-4b21-b9f2-a143522d90f6)
 
-## CONSENSUS PARAMETER UPDATES  
-*cometbft_state_consensus_param_updates*  
-
-**CometBFT Consensus Parameter Updates Metric:** A counter metric that tracks the number of consensus parameter updates returned by the application since the node process started. This metric provides insights into how frequently the application adjusts key consensus parameters, which are critical for maintaining network stability and adapting to changing conditions.  
-
 ## VALIDATOR SET UPDATES  
 *cometbft_state_validator_set_updates*  
 
