@@ -222,5 +222,7 @@ Labels:
 ## MEMPOOL SIZE (BYTES)  
 *cometbft_mempool_size_bytes*
 
+![image](https://github.com/user-attachments/assets/f5832ae6-0b3c-45fb-8dc6-254534bbe98a)
+
 **Fuel Mempool Size in Bytes Metric:** A metric that tracks the total size of the mempool in bytes. Monitoring the size of the mempool is important for understanding the resource usage and ensuring that the node can handle the load of pending transactions efficiently.  
 
