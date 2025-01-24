@@ -229,7 +229,7 @@ Labels:
 ## PEER CONNECTIONS
 *cometbft_p2p_peers*  
 
-**CometBFT Peer Connections Metric: **A gauge metric that tracks the number of active peer connections in the P2P layer of the network. This metric provides insight into the connectivity of the node with the network. Monitoring the number of peers is critical to ensure sufficient connections for block propagation, data exchange, and overall network health.    
+**CometBFT Peer Connections Metric:** A gauge metric that tracks the number of active peer connections in the P2P layer of the network. This metric provides insight into the connectivity of the node with the network. Monitoring the number of peers is critical to ensure sufficient connections for block propagation, data exchange, and overall network health.    
 
 
 
