@@ -231,12 +231,13 @@ Labels:
 
 **CometBFT Peer Connections Metric:** A gauge metric that tracks the number of active peer connections in the P2P layer of the network. This metric provides insight into the connectivity of the node with the network. Monitoring the number of peers is critical to ensure sufficient connections for block propagation, data exchange, and overall network health.    
 
-## BLOCK PROCESSING TIME  
-*cometbft_state_block_processing_time*  
+## AVERAGE BLOCK PROCESSING TIME
+*cometbft_state_block_processing_time_sum / cometbft_state_block_processing_time_count*  
 
-**CometBFT Block Processing Time Metric:** A histogram metric that tracks the time spent processing blocks during the FinalizeBlock phase. This metric provides detailed insights into block processing performance, allowing operators to monitor and optimize node efficiency. The metric includes bucketed timing data, the sum of all processing times, and the total number of processed blocks.  
+This metric represents the average time spent processing a single block during the FinalizeBlock phase. It is calculated by dividing the total processing time (cometbft_state_block_processing_time_sum) by the total number of blocks processed (cometbft_state_block_processing_time_count).  
+Usage in a panel: This metric is ideal for monitoring the efficiency of block processing. By tracking the average time per block, you can identify performance trends or detect unusual spikes that may indicate potential issues with the node.  
 
-
+![image](https://github.com/user-attachments/assets/0cae009c-99f5-4b21-b9f2-a143522d90f6)
 
 
 
