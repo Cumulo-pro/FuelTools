@@ -207,6 +207,8 @@ Labels:
 
 **Fuel Failed Transactions Metric:** A metric that tracks the number of transactions that failed to be processed in the mempool. Failed transactions can occur due to network issues, validation failures, or other factors.  
 
+![image](https://github.com/user-attachments/assets/03988ac9-6a42-468c-97a9-044ab5412ff1)
+
 ## MEMPOOL RECHECK TIMES
 *cometbft_mempool_recheck_times*  
 
