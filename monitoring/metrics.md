@@ -271,6 +271,8 @@ Usage in a panel: This metric is ideal for monitoring the efficiency of block pr
 
 **Sequencer Last Ethereum Block Synced Metric:** A gauge metric that tracks the latest Ethereum block synchronized by the sequencer. This metric is critical for monitoring the sync status of the sequencer with the Ethereum network.  
 
+![image](https://github.com/user-attachments/assets/83d7bd97-a62a-4f9b-bfd9-4d8ec016521a)
+
 ## LAST ETHEREUM NONCE
 *sequencer_store_last_ethereum_nonce*  
 
