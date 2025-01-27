@@ -303,10 +303,14 @@ Usage in a panel: This metric is ideal for monitoring the efficiency of block pr
 
 **Transaction Gas Used Metric:** A gauge metric that tracks the total amount of gas used by the latest transaction processed. Monitoring this metric is critical for analyzing the cost of transactions and network resource utilization.  
 
+![image](https://github.com/user-attachments/assets/74248b6a-c191-4556-b717-e2442bdd1382)
+
 ## GAS WANTED
 *tx_gas_wanted*  
 
 **Transaction Gas Wanted Metric:** A gauge metric that tracks the amount of gas requested by the latest transaction. This metric helps identify transaction demands and trends in gas consumption.  
+
+![image](https://github.com/user-attachments/assets/312b45f7-37b0-4c22-8a78-844bddec9b1d)
 
 ## SUCCESSFUL TRANSACTIONS
 *tx_successful*  
