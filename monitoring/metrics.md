@@ -251,6 +251,8 @@ Usage in a panel: This metric is ideal for monitoring the efficiency of block pr
 
 **Sequencer Minted Tokens Metric:** A gauge metric that tracks the number of tokens minted at the beginning of a block by the sequencer. This metric is useful for understanding token issuance within the network and monitoring the rate of new token creation.   
 
+![image](https://github.com/user-attachments/assets/5539c899-20b9-4019-8d4a-f6bd36445d2e)
+
 ## ETHEREUM EVENT INDEX OFFSET
 *sequencer_store_ethereum_event_index_offset*  
 
