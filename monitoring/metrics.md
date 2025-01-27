@@ -317,6 +317,7 @@ Usage in a panel: This metric is ideal for monitoring the efficiency of block pr
 
 **Successful Transactions Metric:** A counter metric that tracks the total number of successfully processed transactions. This metric provides an indication of the network's efficiency and ability to handle transactions without errors.  
 
+![image](https://github.com/user-attachments/assets/99ce102d-de80-40bf-bbc8-9d45e16c754a)
 
 
 
