@@ -296,6 +296,8 @@ Usage in a panel: This metric is ideal for monitoring the efficiency of block pr
 
 **Transaction Count Metric:** A counter metric that tracks the total number of transactions processed by the network since the process started. This metric provides an overall view of network activity and transaction throughput.  
 
+![image](https://github.com/user-attachments/assets/c65b5417-8ad7-4d28-9b64-588447eb9455)
+
 ## GAS USED
 *tx_gas_used*  
 
