@@ -270,6 +270,8 @@ Usage in a panel: This metric is ideal for monitoring the efficiency of block pr
 
 **Sequencer Last Consensus Transaction Sequence Metric:** A gauge metric that tracks the sequence number of the last consensus transaction processed by the sequencer. This metric is important for identifying the latest consensus state and monitoring transaction flow.  
 
+![image](https://github.com/user-attachments/assets/58bacb6e-d4cb-49ed-937e-d0dbd6ea139b)
+
 ## LAST ETHEREUM BLOCK SYNCED
 *sequencer_store_last_ethereum_block_synced*
 
