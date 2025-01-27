@@ -284,6 +284,8 @@ Usage in a panel: This metric is ideal for monitoring the efficiency of block pr
 
 **Sequencer Last Ethereum Nonce Metric:** A gauge metric that tracks the latest Ethereum nonce observed by the sequencer. This metric provides insight into Ethereum transaction progress and nonce management.  
 
+![image](https://github.com/user-attachments/assets/7857d203-e2c4-4bd1-9420-1641a709df8e)
+
 ## TIME SINCE LAST ETHEREUM UPDATE
 **sequencer_store_time_since_last_eth_update**  
 
