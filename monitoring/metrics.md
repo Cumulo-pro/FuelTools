@@ -263,6 +263,8 @@ Usage in a panel: This metric is ideal for monitoring the efficiency of block pr
 
 **Sequencer Injected Transactions Metric:** A gauge metric that tracks the total number of injected transactions in the sequencer's index. This metric helps monitor how many transactions have been programmatically or manually injected into the network for processing.    
 
+![image](https://github.com/user-attachments/assets/167e5b4c-d3c9-4c24-9032-16e53da57332)
+
 ## LAST CONSENSUS TRANSACTION SEQUENCE
 *sequencer_store_last_consensus_txs_sequence*  
 
